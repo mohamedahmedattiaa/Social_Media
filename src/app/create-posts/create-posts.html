@@ -1,0 +1,34 @@
+<div class="create-post-card">
+  <h2>Create Post</h2>
+  <form (ngSubmit)="submitPost()" #form="ngForm">
+    
+    <div class="form-group">
+      <img class="user-avatar" [src]="userImage" alt="User Avatar" />
+      <input
+        type="text"
+        name="title"
+        [(ngModel)]="title"
+        placeholder="What's on your mind?"
+        required
+        class="form-input"
+      />
+    </div>
+
+    <div class="form-group">
+      <textarea
+        name="body"
+        [(ngModel)]="body"
+        placeholder="Write something..."
+        rows="3"
+        required
+        class="form-textarea"
+      ></textarea>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" [disabled]="form.invalid" class="submit-btn">
+        Post
+      </button>
+    </div>
+  </form>
+</div>

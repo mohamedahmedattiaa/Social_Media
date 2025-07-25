@@ -1,0 +1,53 @@
+<app-create-post (postCreated)="loadPosts()"></app-create-post>
+
+<div class="card-container">
+  <div class="card" *ngFor="let post of posts">
+    <ng-container *ngIf="post?.id as postId">
+      <div [attr.data-id]="postId">
+        <div class="user-header">
+          <div class="user-info">
+            <img [src]="post.user.UrlProfile" class="avatar" />
+            <div class="user-meta">
+              <span class="username">{{ post.user.username }}</span>
+              <span class="timestamp">• {{ post.createdAt | date : 'medium' }}</span>
+            </div>
+          </div>
+          <button class="delete-btn" (click)="deletePost(postId)">Delete</button>
+        </div>
+
+        <div class="card-body">
+          <h3 class="post-title">{{ post.title }}</h3>
+          <p class="post-content">{{ post.body }}</p>
+        </div>
+
+        <div class="card-footer">
+          <button class="action-btn" (click)="onAction(postId, 'like')">
+            Like ({{ getActionCount(postId, 'like') }})
+          </button>
+          <button class="action-btn" (click)="toggleComment(postId)">
+            Comment ({{ getActionCount(postId, 'comment') }})
+          </button>
+          <button class="action-btn" (click)="onAction(postId, 'share')">
+            Share ({{ getActionCount(postId, 'share') }})
+          </button>
+        </div>
+
+        <div *ngIf="commentVisibility[postId]" class="comment-box">
+          <input
+            type="text"
+            [(ngModel)]="commentText[postId]"
+            placeholder="Write a comment..."
+          />
+          <button (click)="addComment(postId)">Send</button>
+
+          <ul class="comment-list" *ngIf="post.comments?.length">
+            <li *ngFor="let cmt of post.comments; let i = index" class="comment-item">
+              {{ cmt }}
+              <button (click)="removeComment(postId, i)">x</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

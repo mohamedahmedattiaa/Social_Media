@@ -1,0 +1,7 @@
+<div class="user-header">
+  <img class="avatar" [src]="userImage" alt="User Avatar" />
+  <div class="user-meta">
+    <span class="username">{{ username }}</span>
+    <span class="timestamp">{{ createdAt | date: 'medium' }}</span>
+  </div>
+</div>

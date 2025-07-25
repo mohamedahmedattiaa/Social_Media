@@ -1,0 +1,162 @@
+{
+  "posts": [
+    {
+      "title": "Mastering Node.js Fundamentals",
+      "body": "Understand event-driven architecture and Node.js runtime.",
+      "id": "1",
+      "createdAt": "2025-07-21T10:30:00",
+      "userId": 1
+    },
+    {
+      "title": "RESTful APIs with Express",
+      "body": "Build scalable APIs using Express.js.",
+      "id": "2",
+      "createdAt": "2025-07-20T14:15:00",
+      "userId": 2
+    },
+    {
+      "title": "Docker for Developers",
+      "body": "Containerize your applications with Docker.",
+      "id": "3",
+      "createdAt": "2025-07-19T09:45:00",
+      "userId": 3
+    },
+    {
+      "title": "CI/CD Pipelines with GitHub Actions",
+      "body": "Automate deployment workflows using GitHub.",
+      "id": "4",
+      "createdAt": "2025-07-18T16:20:00",
+      "userId": 4
+    },
+    {
+      "title": "Exploring TypeScript in Depth",
+      "body": "Use TypeScript to build scalable frontends.",
+      "id": "5",
+      "createdAt": "2025-07-17T11:10:00",
+      "userId": 5
+    },
+    {
+      "title": "WebSockets and Real-time Apps",
+      "body": "Enable live updates with WebSockets.",
+      "id": "6",
+      "createdAt": "2025-07-16T08:30:00",
+      "userId": 6
+    },
+    {
+      "title": "Cybersecurity Best Practices",
+      "body": "Secure backend applications from attacks.",
+      "id": "7",
+      "createdAt": "2025-07-15T17:05:00",
+      "userId": 7
+    },
+    {
+      "title": "The Science of Muscle Growth",
+      "body": "Hypertrophy explained: How muscles grow.",
+      "id": "8",
+      "createdAt": "2025-07-14T12:40:00",
+      "userId": 8
+    },
+    {
+      "title": "Intermittent Fasting for Fat Loss",
+      "body": "Benefits of time-restricted eating.",
+      "id": "9",
+      "createdAt": "2025-07-13T19:25:00",
+      "userId": 9
+    },
+    {
+      "title": "Improving Athletic Performance",
+      "body": "Techniques to boost endurance and strength.",
+      "id": "10",
+      "createdAt": "2025-07-12T15:55:00",
+      "userId": 10
+    },
+    {
+      "title": "Mobility and Flexibility Routines",
+      "body": "Prevent injuries with daily stretching.",
+      "id": "11",
+      "createdAt": "2025-07-11T09:00:00",
+      "userId": 11
+    },
+    {
+      "title": "Nutrition for Bodybuilders",
+      "body": "Macronutrients that fuel muscle gain.",
+      "id": "12",
+      "createdAt": "2025-07-10T13:10:00",
+      "userId": 12
+    },
+    {
+      "title": "HIIT vs Steady-State Cardio",
+      "body": "Which is more effective for fat loss?",
+      "id": "13",
+      "createdAt": "2025-07-09T20:45:00",
+      "userId": 13
+    },
+    {
+      "title": "Cognitive Behavioral Therapy (CBT)",
+      "body": "How CBT helps reframe negative thoughts.",
+      "id": "14",
+      "createdAt": "2025-07-08T11:30:00",
+      "userId": 1
+    },
+    {
+      "title": "Understanding Burnout Syndrome",
+      "body": "Symptoms and recovery strategies.",
+      "id": "15",
+      "createdAt": "2025-07-07T14:45:00",
+      "userId": 2
+    },
+    {
+      "title": "Growth Mindset for Developers",
+      "body": "Why mindset impacts your coding journey.",
+      "id": "16",
+      "createdAt": "2025-07-06T17:00:00",
+      "userId": 3
+    },
+    {
+      "title": "Mindfulness in Daily Life",
+      "body": "Reduce stress through mindfulness practice.",
+      "id": "17",
+      "createdAt": "2025-07-05T19:10:00",
+      "userId": 4
+    },
+    {
+      "title": "The Psychology of Motivation",
+      "body": "Triggers that activate intrinsic drive.",
+      "id": "18",
+      "createdAt": "2025-07-04T09:25:00",
+      "userId": 5
+    },
+    {
+      "title": "Building Emotional Intelligence",
+      "body": "EQ and how it affects leadership.",
+      "id": "19",
+      "createdAt": "2025-07-03T12:40:00",
+      "userId": 6
+    },
+    {
+      "title": "Breaking Negative Habits",
+      "body": "Science-backed methods to rewire behavior.",
+      "id": "20",
+      "createdAt": "2025-07-02T15:55:00",
+      "userId": 7
+    },
+    {
+      "id": "ad1e",
+      "title": "dfsdf",
+      "body": "dsfsdfsdf",
+      "Img": "",
+      "createdAt": "2025-07-25T16:02:48.193Z",
+      "userId": 14,
+      "comments": []
+    },
+    {
+      "id": "80fb",
+      "title": "werwer",
+      "body": "ewrwe",
+      "Img": "",
+      "createdAt": "2025-07-25T16:24:52.680Z",
+      "userId": 14,
+      "comments": []
+    }
+  ]
+}
